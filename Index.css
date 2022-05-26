@@ -1,0 +1,22 @@
+.highlight
+{
+background-color: black;
+}
+.navbar-style
+{
+background-color: antiquewhite!important;
+}
+
+.yellow-highligh{
+color: lemonchiffon;
+font-size: 43px;
+}
+
+.orange-highligh{
+color: bisque;
+font-size: 20px;
+}
+
+.hand-icon{
+cursor: pointer;
+}
