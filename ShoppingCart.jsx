@@ -20,7 +20,7 @@ render(){
     console.log ("render- ShoppingCart");
 return (
 <div className="container-fluid">
-<h4>Shopping Cart</h4>
+<h4>Items for Sale</h4>
 <div className="row">
      {this.state.products.map((prod)=>{
         return(
@@ -54,7 +54,7 @@ componentDidUpdate(prevProps, prevState){
 
 componentWillUnmount()
     {
-        fetch('https://strangers-things.herokuapp.com/api/COHORT-NAME/users/register', {
+        fetch('', {
             method: "Post",
             headers: {
               'Content-Type': 'application/json'
@@ -120,6 +120,32 @@ handleDelete = (product) => {
 }
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
