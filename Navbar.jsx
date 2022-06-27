@@ -7,7 +7,7 @@ class NavBar extends Component {
       <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-style">
           <a className="navbar-brand" href="/#">
-            Stranger Things
+            Stranger's Things
           </a>
 
           <button
@@ -26,25 +26,30 @@ class NavBar extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <Link to="/" className="nav-link">
-                  Login
+                  Home
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/Dashboard" className="nav-link">
-                  Dashboard
+                  Posts
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/CustomersList" className="nav-link">
-                  Customers
+                  New Listing
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="/ShoppingCart" className="nav-link">
-                  Shopping Cart
+                  Items for Sale
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/Logout" className="nav-link">
+                  Logout
                 </Link>
               </li>
             </ul>
@@ -56,3 +61,26 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
