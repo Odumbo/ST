@@ -1,22 +1,63 @@
 .highlight
 {
-background-color: black;
+background-color: white;
 }
 .navbar-style
 {
-background-color: antiquewhite!important;
+background-color: #c2abab!important;
 }
 
 .yellow-highligh{
-color: lemonchiffon;
+color: white;
 font-size: 43px;
 }
 
 .orange-highligh{
-color: bisque;
+color: white;
 font-size: 20px;
 }
 
 .hand-icon{
 cursor: pointer;
 }
+
+ /* .centered-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }  */
+
+  .box {
+    display: flex;
+  }
+
+  .one {
+    flex: 5 15 10px;
+  }
+
+  .two {
+    flex: 5 12 15px;
+  }
+
+  .three {
+    flex: 3 3 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
